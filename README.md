@@ -5,9 +5,11 @@ ReceiptQA is a large-scale dataset specifically designed to support and advance 
 
 ## Example of Receipts
 <p align="center">
-  <img src="images/example1.jpg" alt="Image 1" width="300"/>
-  <img src="images/example2.jpg" alt="Image 2" width="300"/>
+  <img src="images/example1.jpg" alt="Image 1" width="300" height="500"/>
+  <img src="images/example2.jpg" alt="Image 2" width="300"  height="500"/>
 </p>
+
+
 ## Dataset Overview
 ReceiptQA consists of 3,500 receipt images paired with 171,000 question-answer pairs, constructed using two complementary approaches:
 
@@ -50,7 +52,7 @@ Here is a sample of the data structure used in the ReceiptQA dataset:
   "question": "How many items were purchased?",
   "answer": "2"
 }
-
+```
 ## Requirements
 ```bash
 # Install required libraries for inference
