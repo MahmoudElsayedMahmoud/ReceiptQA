@@ -104,7 +104,9 @@ ReceiptQA has been used to evaluate state-of-the-art models, including:
 
 ## Citation
 If you use ReceiptQA in your research, please cite our paper:
-
+```
+Will be publish soon !!
+```
 
 
 
