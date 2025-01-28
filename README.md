@@ -29,23 +29,28 @@ ReceiptQA consists of 3,500 receipt images paired with 171,000 question-answer p
 | coffe shop        | 650      | 18,850         | 13,000       |
 | **Total**       | **3,500**| **101,935**    | **70,000**   |
 
-### Example of data
- {
-      "question": "What is the total amount for this receipt?",
-      "answer": "559.99 L.E"
-    },
-    {
-      "question": "What is the name of item 1?",
-      "answer": "Pullover PU-SOK1175"
-    },
-    {
-      "question": "What is the transaction number?",
-      "answer": "29786"
-    },
-    {
-      "question": "How many items were purchased?",
-      "answer": "2"
-    }
+### Example of Data
+
+Here is a sample of the data structure used in the ReceiptQA dataset:
+
+```json
+{
+  "question": "What is the total amount for this receipt?",
+  "answer": "559.99 L.E"
+},
+{
+  "question": "What is the name of item 1?",
+  "answer": "Pullover PU-SOK1175"
+},
+{
+  "question": "What is the transaction number?",
+  "answer": "29786"
+},
+{
+  "question": "How many items were purchased?",
+  "answer": "2"
+}
+
 ## Requirements
 ```bash
 # Install required libraries for inference
