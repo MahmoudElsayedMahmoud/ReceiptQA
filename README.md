@@ -3,8 +3,9 @@
 ReceiptQA is a large-scale dataset specifically designed to support and advance research in receipt understanding through question-answering (QA) tasks. This dataset offers a wide range of questions derived from real-world receipt images, addressing diverse challenges such as text extraction, layout understanding, and numerical reasoning. ReceiptQA provides a benchmark for evaluating and improving models for receipt-based QA tasks.
 
 
-
-
+## Example of Receipts
+![Alt text for image1](images/emaple1.jpg)
+![Alt text for image2](images/eample2.jpg)
 ## Dataset Overview
 ReceiptQA consists of 3,500 receipt images paired with 171,000 question-answer pairs, constructed using two complementary approaches:
 
@@ -26,7 +27,7 @@ ReceiptQA consists of 3,500 receipt images paired with 171,000 question-answer p
 | coffe shop        | 650      | 18,850         | 13,000       |
 | **Total**       | **3,500**| **101,935**    | **70,000**   |
 
-### example of data
+### Example of data
  {
       "question": "What is the total amount for this receipt?",
       "answer": "559.99 L.E"
