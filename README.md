@@ -1,3 +1,5 @@
+
+
 # ReceiptQA: A Comprehensive Dataset for Receipt Understanding and Question Answering
 
 ReceiptQA is a large-scale dataset specifically designed to support and advance research in receipt understanding through question-answering (QA) tasks. This dataset offers a wide range of questions derived from real-world receipt images, addressing diverse challenges such as text extraction, layout understanding, and numerical reasoning. ReceiptQA provides a benchmark for evaluating and improving models for receipt-based QA tasks.
@@ -67,9 +69,9 @@ pip install Pillow
 ## Download Links
 
 ### Full Dataset
-- **Train Set :** [Download](https://example.com/train.json)
-- **Validation Set :** [Download](https://example.com/val.json)
-- **Test Set :** [Download](https://example.com/test.json)
+- **Train Set :** [Images](https://huggingface.co/datasets/mahmoud2019/ReceiptQA/resolve/main/train_images.zip?download=true) | [Labels](https://huggingface.co/datasets/mahmoud2019/ReceiptQA/resolve/main/train_label.zip?download=true) 
+- **Validation Set :** [Images](https://huggingface.co/datasets/mahmoud2019/ReceiptQA/resolve/main/validation_images.zip?download=true) | [Labels](https://huggingface.co/datasets/mahmoud2019/ReceiptQA/resolve/main/validation_label.zip?download=true) 
+- **Test Set :** [Images](https://huggingface.co/datasets/mahmoud2019/ReceiptQA/resolve/main/test_images.zip?download=true) | [Labels](https://huggingface.co/datasets/mahmoud2019/ReceiptQA/resolve/main/test_label.zip?download=true) 
 
 
 ## Using ReceiptQA
